@@ -1,0 +1,12 @@
+Lien de depart: https://en.wikipedia.org/wiki/Computer
+#############
+https://en.wikipedia.org/wiki/Computer_program
+https://en.wikipedia.org/wiki/Computer
+https://en.wikipedia.org/wiki/Computer_programming
+https://en.wikipedia.org/wiki/Software_deployment
+https://en.wikipedia.org/wiki/Cleanroom_software_engineering
+https://en.wikipedia.org/wiki/Software_deployment
+https://en.wikipedia.org/wiki/Waterfall_model
+https://en.wikipedia.org/wiki/Software_construction
+https://en.wikipedia.org/wiki/Software_design
+https://en.wikipedia.org/wiki/Debugging
