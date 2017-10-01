@@ -10,20 +10,14 @@ idees a implementer:
 f = open('db.txt', 'w')
 
 urlParcourt = "https://en.wikipedia.org/wiki/Computer"
-motcle = "computer"
-already_visited = []
 
-ontology = [[""], [""]]
 
-def download_page(url, keyword):
+def download_page(url):
     try:
         req = urllib.request.Request(url)
         resp = urllib.request.urlopen(req)
         respData = str(resp.read())
-        if (respData.find(keyword) != -1):
-            return respData
-        else:
-            return "0"
+        return respData
     except Exception as e:
         print(str(e))
 
@@ -45,7 +39,7 @@ def get_next_link(s):
             return link, end_quote
 
 
-def get_all_links(page, links):
+def get_all_links(page, links, keyword):
     compteur = 0
     while True:
         link, end_link = get_next_link(page)
@@ -57,7 +51,8 @@ def get_all_links(page, links):
                         link.find(".png") == -1) and (
                         link.find(".svg") == -1) and (
                         link.find(".jpg") == -1) and (
-                        link.find(":") == -1):
+                        link.find(":") == -1) and (
+                        link.find(keyword) != -1):
                     links.append(link)
                     compteur += 1
                     if compteur >= 100:
@@ -66,11 +61,12 @@ def get_all_links(page, links):
     return links
 
 
-def parcourt_links(page):
+def parcourt_links(page, keyword):
     # initial:
     print("Lien de depart: ", page)
     profondeur = int(input("choose depth: "))
     print("#########################")
+
     print("Lien de depart: ", page)
     print("#########################")
     print("")
@@ -79,16 +75,13 @@ def parcourt_links(page):
     f.write("\n")
     f.write("#############")
     f.write("\n")
-    
     donnee = []
-    d = download_page(page, motcle)
-    get_all_links(d, donnee)
-
+    d = download_page(page)
+    get_all_links(d, donnee, keyword)
 
     # print("len: ", len(donnee))
     # avoidLinks = ['https://en.wikipedia.org/wiki/Main_Page']
     # successif:
-
     for i in range(profondeur):
         data2 = []
         rand = randint(1, 9)
@@ -101,15 +94,10 @@ def parcourt_links(page):
         print("############################")
         print(next_link)
         print("############################")
-        d2 = download_page(next_link, motcle)
-        if (d2 == "0"):
-            print("pas de keyword, on backtrack")
-        else:
-            donnee = get_all_links(d2, data2)
+        d2 = download_page(next_link)
+        donnee = get_all_links(d2, data2, keyword)
         # print(donnee)
 
-def main():
-    parcourt_links(urlParcourt)
 
-if __name__ == "__main__":
-    main()
+keyword = input("choose keyword: ")
+parcourt_links(urlParcourt, keyword)

@@ -11,9 +11,8 @@ f = open('db.txt', 'w')
 
 urlParcourt = "https://en.wikipedia.org/wiki/Computer"
 motcle = "computer"
-already_visited = []
 
-ontology = [[""], [""]]
+ontology = [["Hardware", "CPU", "Processor", "Memory", "Network"], ["Program", "Programs"]]
 
 def download_page(url, keyword):
     try:

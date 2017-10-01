@@ -1,12 +1,12 @@
 Lien de depart: https://en.wikipedia.org/wiki/Computer
 #############
-https://en.wikipedia.org/wiki/Computer_program
-https://en.wikipedia.org/wiki/Computer
-https://en.wikipedia.org/wiki/Computer_programming
-https://en.wikipedia.org/wiki/Software_deployment
-https://en.wikipedia.org/wiki/Cleanroom_software_engineering
-https://en.wikipedia.org/wiki/Software_deployment
-https://en.wikipedia.org/wiki/Waterfall_model
-https://en.wikipedia.org/wiki/Software_construction
-https://en.wikipedia.org/wiki/Software_design
-https://en.wikipedia.org/wiki/Debugging
+https://en.wikipedia.org/wiki/Consumer_electronics
+https://en.wikipedia.org/wiki/Electronics
+https://en.wikipedia.org/wiki/Electrical_circuit
+https://en.wikipedia.org/wiki/Ohm%27s_law
+https://en.wikipedia.org/wiki/Electrical_component
+https://en.wikipedia.org/wiki/Electrical_network
+https://en.wikipedia.org/wiki/Voltage_source
+https://en.wikipedia.org/wiki/Electrical_element
+https://en.wikipedia.org/wiki/Electrical_network
+https://en.wikipedia.org/wiki/Ohm%27s_law

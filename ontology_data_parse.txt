@@ -1,0 +1,4 @@
+instance of computer:
+
+Hardware = ["Hardware", "CPU", "Processor", "Memory", "Network"]
+Software = ["Program", "Programs"]
