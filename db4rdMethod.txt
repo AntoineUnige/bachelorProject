@@ -1,0 +1,20 @@
+Lien de depart: https://en.wikipedia.org/wiki/Computer
+#############
+https://en.wikipedia.org/wiki/Smartphone
+88
+https://en.wikipedia.org/wiki/Virtual_assistant_(artificial_intelligence)
+11
+https://en.wikipedia.org/wiki/Wikipedia
+5
+https://en.wikipedia.org/wiki/Antikythera_wreck
+8
+https://en.wikipedia.org/wiki/Mobile_operating_system
+29
+https://en.wikipedia.org/wiki/Antikythera_wreck
+8
+https://en.wikipedia.org/wiki/Google_Assistant
+2
+https://en.wikipedia.org/wiki/Spain
+https://en.wikipedia.org/wiki/Walmart.com
+https://en.wikipedia.org/wiki/Geoworks
+5

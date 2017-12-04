@@ -1,4 +1,5 @@
 instance of computer:
 
-Hardware = ["Hardware", "CPU", "Processor", "Memory", "Network"]
-Software = ["Program", "Programs"]
+Hardware = ["hardware", "cpu", "central", "processing", "unit", processor", "memory", "network", "binary", "logical", "arithmetic", "logic", "unit", "alu", "transistor", "circuit", "bios"]
+
+Software = ["program", "programs", "computerprocess", "process", "internet", "control systems", "instruction", "data", "libraries", "languages", "programming", "code"]

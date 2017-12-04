@@ -1,10 +1,10 @@
 - crawler en fonction du 1er mot DONE
 - crawler en fonction du mot present dans le titre DONE
-- crawler en fonction de la sousclasse du mot clé (instance of) avec ontology
+- crawler en fonction de la sousclasse du mot clé (instance of) avec ontology DONE
 
 
-- definir une mesure pour voir si une page est pertinente en fonction du domaine
-: en comptant le nombre de mots "motclé" qui sont presents dans la page.
-- ou avec avec Topic Modelling/ LDA/ Precision 2 recall
+- definir une mesure pour voir si une page est pertinente en fonction du domaine 
+: en comptant le nombre de mots "motclé" qui sont presents dans la page. DONE
+- tester 5 mots sur les 5 algo
 - graphique 
  
