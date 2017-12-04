@@ -106,7 +106,7 @@ def parcourt_links(page):
         next_link = "https://en.wikipedia.org" + donnee[rand] # UN LIEN ALEATOIRE DES 10 LIENS DE LA PAGE
         f.write(str(next_link))
         f.write("\n")
-        print(pertinence(next_link, "computer", 0))
+        pertinence(next_link, "computer", 0)
         f.write(str(pertinence(next_link, "computer", 0)))
         f.write("\n")
         print("############################")

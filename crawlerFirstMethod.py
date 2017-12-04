@@ -103,8 +103,8 @@ def parcourt_links(page):
         next_link = "https://en.wikipedia.org" + donnee[1] # PREMIER LIEN
         f.write(str(next_link))
         f.write("\n")
-        print(pertinence(next_link, "computing", 0))
-        f.write(str(pertinence(next_link, "computing", 0)))
+        pertinence(next_link, "computer", 0)
+        f.write(str(pertinence(next_link, "computer", 0)))
         f.write("\n")
         print("############################")
         print(next_link)

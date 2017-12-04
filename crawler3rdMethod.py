@@ -71,7 +71,7 @@ def pertinence(url, keyword, count):
         respData = str(resp.read().decode().split())
         count = respData.count(keyword)
         totalMots = respData.count(" ")
-        print(count, "occurences du mot ", keyword, "pour la page: ", urlParcourt, "sur: ", totalMots, "mots au total")
+        #print(count, "occurences du mot ", keyword, "pour la page: ", urlParcourt, "sur: ", totalMots, "mots au total")
         return count
     except Exception as e:
         print(str(e))
@@ -117,7 +117,7 @@ def parcourt_links(page, keyword):
             # print("nouveau lien: ", nextLink)
             f.write(str(next_link))
             f.write("\n")
-            print(pertinence(next_link, keyword, 0))
+            pertinence(next_link, keyword, 0)
             f.write(str(pertinence(next_link, keyword, 0)))
             f.write("\n")
             print("############################")

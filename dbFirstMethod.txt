@@ -1,11 +1,11 @@
 Lien de depart: https://en.wikipedia.org/wiki/Computer
 #############
 https://en.wikipedia.org/wiki/Computer_system_(disambiguation)
-0
+3
 https://en.wikipedia.org/wiki/Meta-system
-0
+1
 https://en.wikipedia.org/wiki/Meta-
-0
+1
 https://en.wikipedia.org/wiki/Greek_language
 0
 https://en.wikipedia.org/wiki/Mycenaean_Greek
